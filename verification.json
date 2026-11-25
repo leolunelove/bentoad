@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-25",
+  "build": "1.8.0",
+  "change": "Same-browser origin migration to bentoad.leolune.fun",
+  "unchanged_sha256": {
+    "engine.js": "e275fdd2152ca97e5c0fa28720abf624266f0fe48b40a5a0e409a59e4a7ee99b",
+    "motion.js": "825c5b5b174a76e834dd3977ce3f3f8098d7fe5fc8f7fadd0f9505b87d4b14f2",
+    "layout.js": "a40b344f6c96b6947bfbec3b135a130206175e1a54829a1499ddf3da47b0798d",
+    "levels.json": "9ca48bc39a90394f415d95912cdbf54043f3858c117f2285a4f475104c09913e"
+  },
+  "tests": {
+    "existing_seven_suites": "passed",
+    "transfer_checks": 177,
+    "legacy_save_round_trips": 74,
+    "boards_with_80_history_entries": 100
+  },
+  "browser_local": {
+    "automatic_cross_origin_transfer": true,
+    "completed_squares": 6,
+    "first_current_level": 7,
+    "sound_off_retained": true,
+    "original_history_undo_restored": true,
+    "two_independent_boards_retained": true,
+    "new_progress_survived_reload": true,
+    "blocked_frame_popup_recovery": true,
+    "originalFixture": {
+      "level": "07",
+      "remaining": "2 to go",
+      "sound": "false"
+    },
+    "currentFixture": {
+      "level": "25",
+      "remaining": "4 to go",
+      "sound": "false"
+    }
+  },
+  "transfer": {
+    "source": "https://squared.leolune.fun",
+    "target": "https://bentoad.leolune.fun",
+    "save_key": "squared-save-v1",
+    "original_retained": true,
+    "newer_destination_work_preferred": true,
+    "transport": "Exact-origin postMessage; no save data in URLs or on a server",
+    "popup_recovery_tested": true
+  },
+  "publication": {
+    "status": "awaiting_dns_and_live_transfer_verification",
+    "new_repository": "https://github.com/leolunelove/bentoad",
+    "old_index_unchanged_until_verified": true
+  }
+}
